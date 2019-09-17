@@ -2,11 +2,11 @@
 # -*- coding: utf-8 -*-
 # 作者：2019/8/19 by jade
 # 邮箱：jadehh@live.com
-# 描述：TODO
+# 描述：训练文件
 # 最近修改：2019/8/19  上午11:55 modify by jade
 
 from nets import nets_factory
-from datasets import dataset_factory
+from dataset import dataset_factory
 from deployment import model_deploy
 from preprocessing import preprocessing_factory
 from jade import *
