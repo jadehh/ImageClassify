@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- 
 # 作者：2019/9/17 by jade
 # 邮箱：jadehh@live.com
-# 描述：TODO
+# 描述：预测文件
 # 最近修改：2019/9/17  上午10:50 modify by jade
 import numpy as np
 import os
