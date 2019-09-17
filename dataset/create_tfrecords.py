@@ -1,9 +1,13 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# 作者：2019/9/17 by jade
+# 邮箱：jadehh@live.com
+# 描述：可视化tfrecord
+# 最近修改：2019/9/17  上午10:40 modify by jade
+
 import math
-import os
-import random
-import sys
 import tensorflow as tf
-from datasets import dataset_utils
+from dataset import dataset_utils
 from jade import *
 import argparse
 
@@ -48,7 +52,7 @@ def convert_dataset(split_name, filenames, class_names_to_ids,args):
         filenames: A list of absolute paths to png or jpg images.
         class_names_to_ids: A dictionary from class names (strings) to ids
           (integers).
-        dataset_dir: The directory where the converted datasets are stored.
+        dataset_dir: The directory where the converted dataset are stored.
       """
     assert split_name in ['train', 'test']
 
