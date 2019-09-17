@@ -6,9 +6,12 @@
 python setup.py
 ```
 ---
+
+
+
 ### 训练自己的数据集,制作数据集
 ```
-python datasets/create_tfrecords.py
+python dataset/create_tfrecords.py
 ```
 ----
 
@@ -16,14 +19,15 @@ python datasets/create_tfrecords.py
 ### 可视化tfrecord文件
 
 ```
-python datasets/tfrecord_show.py
+python dataset/tfrecord_show.py
 ```
 ---
 
 
-### 读取tfrecord文件，用于训练,需要自定义读取文件
+### 读取tfrecord文件，用于训练
+需要自定义读取文件,模仿slim中的datasets文件
 ````
-python datasets/sdfgoods.py
+python dataset/sdfgoods.py
 ````
 ---
 
@@ -36,3 +40,12 @@ python train.py
 * checkpoint_exclude_scopes 对应的是加载预训练模型，训练的层名称，其他层的参数使用checkpoint
 
 
+### 预测分类结果
+```
+python predict.py
+```
+
+### 计算模型准确率
+```
+python cal_acc.py
+```
