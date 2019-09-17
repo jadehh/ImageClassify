@@ -8,7 +8,6 @@ python setup.py
 ---
 
 
-
 ### 训练自己的数据集,制作数据集
 ```
 python dataset/create_tfrecords.py
@@ -39,13 +38,21 @@ python train.py
 * model name 对应的是网络名称
 * checkpoint_exclude_scopes 对应的是加载预训练模型，训练的层名称，其他层的参数使用checkpoint
 
-
+---
 ### 预测分类结果
 ```
 python predict.py
 ```
-
+---
 ### 计算模型准确率
 ```
 python cal_acc.py
 ```
+---
+### 数据集下载地址
+只提供tfrecords分类数据集
+
+---
+### 模型下载地址
+
+---
