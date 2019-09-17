@@ -3,7 +3,7 @@
 
 ### slim的安装 [安装地址](https://github.com/tensorflow/models/tree/master/research/slim)
 ```
-python setup.py
+python setup.py install
 ```
 ---
 
