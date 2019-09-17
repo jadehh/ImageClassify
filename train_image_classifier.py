@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # 作者：2019/9/16 by jade
 # 邮箱：jadehh@live.com
-# 描述：TODO
+# 描述：Slim的训练文件
 # 最近修改：2019/9/16  上午11:55 modify by jade
 
 # Copyright 2016 The TensorFlow Authors. All Rights Reserved.
@@ -27,7 +27,7 @@ from __future__ import print_function
 
 import tensorflow as tf
 
-from datasets import dataset_factory
+from dataset import dataset_factory
 from deployment import model_deploy
 from nets import nets_factory
 from nets.nasnet.pnasnet import large_imagenet_config
