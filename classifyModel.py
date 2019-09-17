@@ -2,12 +2,12 @@
 # -*- coding: utf-8 -*- 
 # 作者：2019/9/17 by jade
 # 邮箱：jadehh@live.com
-# 描述：TODO
+# 描述：分类模型
 # 最近修改：2019/9/17  上午10:50 modify by jade
 import tensorflow as tf
 from tensorflow.python.training import saver as saver_lib
 from tensorflow.python.platform import gfile
-from datasets import dataset_factory
+from dataset import dataset_factory
 from nets import nets_factory
 import cv2
 from preprocessing import preprocessing_factory,inception_preprocessing
