@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# 作者：2019/9/17 by jade
+# 邮箱：jadehh@live.com
+# 描述：读取tfrecord文件
+# 最近修改：2019/9/17  上午10:40 modify by jade
+
 # Copyright 2016 The TensorFlow Authors. All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,7 +25,7 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-from datasets import sdfgoods
+from dataset import sdfgoods
 
 datasets_map = {
     'sdfgoods':sdfgoods
